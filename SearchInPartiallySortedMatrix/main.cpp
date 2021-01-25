@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
 
-bool searchInMatrix(const std::vector<std::vector<int>>& vMatrix, int vTarget);
+bool searchInMatrixFromRT(const std::vector<std::vector<int>>& vMatrix, int vTarget);
+bool searchInMatrixFromLB(const std::vector<std::vector<int>>& vMatrix, int vTarget);
 void test(const std::vector<std::vector<int>>& vMatrix, int vTarget);
 
 int main()
@@ -18,7 +19,7 @@ int main()
 	return 0;
 }
 
-bool searchInMatrix(const std::vector<std::vector<int>>& vMatrix, int vTarget)
+bool searchInMatrixFromRT(const std::vector<std::vector<int>>& vMatrix, int vTarget)
 {
 	size_t Row = vMatrix.size();
 	size_t Column = vMatrix[0].size();
@@ -39,7 +40,30 @@ bool searchInMatrix(const std::vector<std::vector<int>>& vMatrix, int vTarget)
 	return false;
 }
 
+bool searchInMatrixFromLB(const std::vector<std::vector<int>>& vMatrix, int vTarget)
+{
+	size_t Row = vMatrix.size();
+	size_t Column = vMatrix[0].size();
+
+	int i = Row - 1;
+	int k = 0;
+
+	while (i >= 0 && k < Column)
+	{
+		if (vMatrix[i][k] == vTarget)
+			return true;
+		if (vMatrix[i][k] > vTarget)
+			--i;
+		else
+			++k; 
+	}
+
+	return false;
+}
+
 void test(const std::vector<std::vector<int>>& vMatrix, int vTarget)
 {
-	std::cout << std::boolalpha << searchInMatrix(vMatrix, vTarget) << std::endl;
+	std::cout << "searchInMatrixFromRT: " << std::boolalpha << searchInMatrixFromRT(vMatrix, vTarget) << std::endl;
+	std::cout << "searchInMatrixFromLB: " << std::boolalpha << searchInMatrixFromLB(vMatrix, vTarget) << std::endl;
+	std::cout << "\n";
 }
