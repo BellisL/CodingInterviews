@@ -89,10 +89,13 @@ void CTree::append2Tree(SBinaryTreeNode * vpFather, SBinaryTreeNode * vpLeft, SB
 
 void CTree::printTree(const SBinaryTreeNode* vpNode) const
 {
-	if (vpNode) __printTreeNode(vpNode);
+	if (vpNode)
+	{
+		__printTreeNode(vpNode);
 
-	if (vpNode->pLeftChild) printTree(vpNode->pLeftChild);
-	if (vpNode->pRightChild) printTree(vpNode->pRightChild);
+		if (vpNode->pLeftChild) printTree(vpNode->pLeftChild);
+		if (vpNode->pRightChild) printTree(vpNode->pRightChild);
+	}
 }
 
 void CTree::__printTreeNode(const SBinaryTreeNode * vpNode) const
@@ -158,7 +161,7 @@ SBinaryTreeNode * constructBinaryTree(int * vpLeftPre, int * vpRightPre, int * v
 		if (vpLeftIn == vpRightIn && *vpLeftPre == *vpLeftIn)
 			return pNode;
 		else
-			std::runtime_error("Invalid input!");
+			throw std::runtime_error("Invalid input!");
 	}
 
 	int* RootInOrder = vpLeftIn;
