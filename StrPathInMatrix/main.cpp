@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <bitset>
 
 bool hasPath(const char* vMatrix, int vRow, int vCol, const std::string& vStr);
 bool trySearch(const char* vMatrix, int vRows, int vCols, int vRow, int vCol, const std::string& vStr, int vPathLength, bool* vIsVis);
@@ -97,7 +96,7 @@ bool hasPath(const char * vMatrix, int vRow, int vCol, const std::string & vStr)
 
 	int PathLength = 0;
 
-	for(int i = 0; i < vRow; ++i)
+	for (int i = 0; i < vRow; ++i)
 		for (int k = 0; k < vCol; ++k)
 		{
 			if (trySearch(vMatrix, vRow, vCol, i, k, vStr, PathLength, IsVisited)) return true;

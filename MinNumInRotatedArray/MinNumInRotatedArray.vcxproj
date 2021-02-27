@@ -20,9 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8F303D5E-8497-47AA-99F1-F086DD04E369}</ProjectGuid>
-    <RootNamespace>My11StrPathInMatrix</RootNamespace>
+    <ProjectGuid>{FD1053CF-644A-4214-ABD7-AEEB02E8873E}</ProjectGuid>
+    <RootNamespace>MinNumInRotatedArray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectName>10_MinNumInRotatedArray</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -14,7 +14,7 @@ int main()
 	{
 		std::vector<int> Nums = { 5, 9, 1, 9, 5, 3, 7, 6, 1 };
 		testSort(Nums);
-	} 
+	}
 
 	return 0;
 }
@@ -30,7 +30,7 @@ void quickSort(std::vector<int>& vSet, int vStart, int vEnd)
 	while (Left < Right)
 	{
 		while (Left < Right && vSet[Right] >= Key) --Right;
-		
+
 		if (Left < Right)
 		{
 			vSet[Left] = vSet[Right];
