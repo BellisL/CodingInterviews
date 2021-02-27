@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <bitset>
 
 int movingCnt(int vThreshold, int vRows, int vCols);
 int movingCntSearch(int vThreshold, int vRows, int vCols, int vRow, int vCol, bool* vIsVis);
