@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_StrPathInMatrix", "StrPa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_CuttingRope", "CuttingRope\CuttingRope.vcxproj", "{9E319AA3-1C1D-40A7-87EE-3D3877630425}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_NumOf1", "NumOf1\NumOf1.vcxproj", "{D1A509B5-1528-4FCF-B8F6-83436723D7C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{9E319AA3-1C1D-40A7-87EE-3D3877630425}.Release|x64.Build.0 = Release|x64
 		{9E319AA3-1C1D-40A7-87EE-3D3877630425}.Release|x86.ActiveCfg = Release|Win32
 		{9E319AA3-1C1D-40A7-87EE-3D3877630425}.Release|x86.Build.0 = Release|Win32
+		{D1A509B5-1528-4FCF-B8F6-83436723D7C6}.Debug|x64.ActiveCfg = Debug|x64
+		{D1A509B5-1528-4FCF-B8F6-83436723D7C6}.Debug|x64.Build.0 = Debug|x64
+		{D1A509B5-1528-4FCF-B8F6-83436723D7C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1A509B5-1528-4FCF-B8F6-83436723D7C6}.Debug|x86.Build.0 = Debug|Win32
+		{D1A509B5-1528-4FCF-B8F6-83436723D7C6}.Release|x64.ActiveCfg = Release|x64
+		{D1A509B5-1528-4FCF-B8F6-83436723D7C6}.Release|x64.Build.0 = Release|x64
+		{D1A509B5-1528-4FCF-B8F6-83436723D7C6}.Release|x86.ActiveCfg = Release|Win32
+		{D1A509B5-1528-4FCF-B8F6-83436723D7C6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
