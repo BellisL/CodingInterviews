@@ -2,7 +2,7 @@
 #include <string>
 
 int Numof1(int vNum);
-int NUmof1_fast(int vNum);
+int Numof1_fast(int vNum);
 void test(const std::string& vTestName, int vNum, int vExpect);
 
 int main()
@@ -30,7 +30,7 @@ int Numof1(int vNum)
 	return Cnt;
 }
 
-int NUmof1_fast(int vNum)
+int Numof1_fast(int vNum)
 {
 	int Cnt = 0;
 	while (vNum)
@@ -45,7 +45,7 @@ int NUmof1_fast(int vNum)
 void test(const std::string& vTestName, int vNum, int vExpect)
 {
 	std::cout << vTestName << ": ";
-	if (vExpect == Numof1(vNum) && vExpect == NUmof1_fast(vNum))
+	if (vExpect == Numof1(vNum) && vExpect == Numof1_fast(vNum))
 		std::cout << "PASSED.\n";
 	else
 		std::cout << "FAILED.\n";
