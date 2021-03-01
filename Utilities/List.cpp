@@ -76,9 +76,48 @@ void CList::removeNode_O1(std::shared_ptr<SListNode> vpNode)
 		vpNode->Value = pTemp->Value;
 		vpNode->pListNode = pTemp->pListNode;
 	}
+	else if (m_pHead == vpNode)
+	{
+		m_pHead = nullptr;
+	}
 	else
 	{
-		removeNode(vpNode->Value);
+		auto pHead = m_pHead;
+		while (pHead->pListNode != vpNode)
+			pHead = pHead->pListNode;
+
+		pHead->pListNode = nullptr;
+	}
+}
+
+void CList::removeDuplicates()
+{
+	if (!m_pHead) return;
+
+	auto pHead = m_pHead;
+	std::shared_ptr<SListNode> pPre = nullptr;
+	while (pHead)
+	{
+		bool Flag = false;
+		while (pHead->pListNode && pHead->Value == pHead->pListNode->Value)
+		{
+			Flag = true;
+			removeNode_O1(pHead->pListNode);
+		}
+
+		if (!Flag)
+		{
+			pHead = pHead->pListNode;
+		}
+		else
+		{
+			pPre = pHead;
+			pHead = pHead->pListNode;
+			if (pPre == m_pHead) 
+				m_pHead = pPre->pListNode;
+			else
+				removeNode_O1(pPre);
+		}
 	}
 }
 

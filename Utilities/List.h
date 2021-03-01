@@ -22,6 +22,7 @@ public:
 	void add2Tail(int vValue);
 	void removeNode(int vValue);
 	void removeNode_O1(std::shared_ptr<SListNode> vpNode);
+	void removeDuplicates();
 	void printList() const;
 
 private:
