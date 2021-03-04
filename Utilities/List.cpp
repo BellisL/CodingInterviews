@@ -138,3 +138,21 @@ void CList::printList() const
 
 	std::cout << std::endl;
 }
+
+void UTILITIES_DECLSPEC printList(std::shared_ptr<SListNode> vpNode)
+{
+	if (!vpNode)
+	{
+		std::cout << "Empty list!\n";
+		return;
+	}
+
+	auto pHead = vpNode;
+	while (pHead)
+	{
+		std::cout << pHead->Value << "\t";
+		pHead = pHead->pListNode;
+	}
+
+	std::cout << std::endl;
+}

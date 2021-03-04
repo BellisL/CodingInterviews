@@ -10,6 +10,8 @@ struct UTILITIES_DECLSPEC SListNode
 	std::shared_ptr<SListNode> pListNode = nullptr;
 };
 
+void UTILITIES_DECLSPEC printList(std::shared_ptr<SListNode> vpNode);
+
 class UTILITIES_DECLSPEC CList
 {
 public:
