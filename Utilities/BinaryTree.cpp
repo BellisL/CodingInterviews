@@ -49,3 +49,11 @@ void CBinaryTree::__destroy(SBinaryTreeNode* vpNode)
 		__destroy(pRightChild);
 	}
 }
+
+void connectTreeNode(SBinaryTreeNode * vpFather, SBinaryTreeNode * vpLeft, SBinaryTreeNode * vpRight)
+{
+	_ASSERTE(vpFather);
+
+	vpFather->pLeftChild = vpLeft;
+	vpFather->pRightChild = vpRight;
+}

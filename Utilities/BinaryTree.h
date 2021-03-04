@@ -14,6 +14,8 @@ struct SBinaryTreeNode
 	SBinaryTreeNode* pRightChild = nullptr;
 };
 
+void UTILITIES_DECLSPEC connectTreeNode(SBinaryTreeNode* vpFather, SBinaryTreeNode* vpLeft, SBinaryTreeNode* vpRight);
+
 class UTILITIES_DECLSPEC CBinaryTree
 {
 public:
