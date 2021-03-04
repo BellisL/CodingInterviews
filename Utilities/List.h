@@ -16,7 +16,7 @@ public:
 	CList(std::shared_ptr<SListNode> vpHead = nullptr) : m_pHead(vpHead) {}
 	~CList() {}
 
-	std::shared_ptr<SListNode> getHeadPtr() { return m_pHead; }
+	const std::shared_ptr<SListNode> getHeadPtr() const { return m_pHead; }
 	bool insert(int vCurValue, int vValue);
 	void insert(std::shared_ptr<SListNode> vpCur, std::shared_ptr<SListNode> vpNode);
 	void add2Tail(int vValue);
