@@ -123,6 +123,12 @@ void CList::removeDuplicates()
 
 void CList::printList() const
 {
+	if (!m_pHead)
+	{
+		std::cout << "Empty list!\n";
+		return;
+	}
+
 	auto pHead = m_pHead;
 	while (pHead)
 	{

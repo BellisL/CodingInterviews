@@ -17,6 +17,8 @@ public:
 	~CList() {}
 
 	const std::shared_ptr<SListNode> getHeadPtr() const { return m_pHead; }
+	//这里的设计很垃圾
+	void setHead(std::shared_ptr<SListNode> vpHead) { _ASSERTE(vpHead); m_pHead = vpHead; };
 	bool insert(int vCurValue, int vValue);
 	void insert(std::shared_ptr<SListNode> vpCur, std::shared_ptr<SListNode> vpNode);
 	void add2Tail(int vValue);
