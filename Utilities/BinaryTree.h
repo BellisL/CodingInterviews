@@ -22,6 +22,7 @@ public:
 	CBinaryTree(SBinaryTreeNode* vpRoot = nullptr) : m_pRoot(vpRoot) {}
 	~CBinaryTree() { __destroy(m_pRoot); }
 
+	SBinaryTreeNode* getRoot() const { return m_pRoot; }
 	void setRoot(SBinaryTreeNode* vpNode) { _ASSERTE(!m_pRoot && vpNode); m_pRoot = vpNode; }
 	void connect2Tree(SBinaryTreeNode* vpFather, SBinaryTreeNode* vpLeft, SBinaryTreeNode* vpRight);
 	void printTree() const { __printTree(m_pRoot, 0, "H", UNIT_LENGTH); }

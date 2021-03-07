@@ -1,6 +1,7 @@
 #include "BinaryTree.h"
 #include <exception>
 
+//形参指针都没加const= =
 bool isSubTree(SBinaryTreeNode* vpFirst, SBinaryTreeNode* vpSecond);
 bool isSubTreeCore(SBinaryTreeNode* vpFirst, SBinaryTreeNode* vpSecond);
 void test(const char* vpTestName, SBinaryTreeNode* vpFirst, SBinaryTreeNode* vpSecond, bool vExpect);
