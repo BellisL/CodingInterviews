@@ -15,6 +15,7 @@ struct SBinaryTreeNode
 };
 
 void UTILITIES_DECLSPEC connectTreeNode(SBinaryTreeNode* vpFather, SBinaryTreeNode* vpLeft, SBinaryTreeNode* vpRight);
+void UTILITIES_DECLSPEC destroy(SBinaryTreeNode* vpRoot);
 
 class UTILITIES_DECLSPEC CBinaryTree
 {

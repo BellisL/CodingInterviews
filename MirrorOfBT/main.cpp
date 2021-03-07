@@ -20,6 +20,8 @@ int main()
 		pTree->connect2Tree(pNode2, pNode5, pNode6);
 
 		test("Test1", pTree);
+
+		delete pTree;
 	}
 
 	{
@@ -36,6 +38,8 @@ int main()
 		pTree->connect2Tree(pNode3, pNode4, nullptr);
 
 		test("Test2", pTree);
+
+		delete pTree;
 	}
 
 	{
@@ -52,6 +56,8 @@ int main()
 		pTree->connect2Tree(pNode3, nullptr, pNode4);
 
 		test("Test3", pTree);
+
+		delete pTree;
 	}
 
 	{
@@ -60,6 +66,8 @@ int main()
 		auto pTree = new CBinaryTree(pNode0);
 
 		test("Test4", pTree);
+
+		delete pTree;
 	}
 
 	return 0;

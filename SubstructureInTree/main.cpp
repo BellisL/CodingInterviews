@@ -26,6 +26,9 @@ int main()
 		connectTreeNode(pNode7, pNode8, pNode9);
 
 		test("Test1", pNode0, pNode7, false);
+
+		destroy(pNode0);
+		destroy(pNode7);
 	}
 
 	{
@@ -46,6 +49,9 @@ int main()
 		connectTreeNode(pNode8, pNode9, nullptr);
 
 		test("Test2", pNode0, pNode7, true);
+
+		destroy(pNode0);
+		destroy(pNode7);
 	}
 
 	{
@@ -66,6 +72,9 @@ int main()
 		connectTreeNode(pNode8, pNode9, nullptr);
 
 		test("Test2", pNode0, pNode7, false);
+
+		destroy(pNode0);
+		destroy(pNode7);
 	}
 
 	{
@@ -86,6 +95,9 @@ int main()
 		connectTreeNode(pNode8, nullptr, pNode9);
 
 		test("Test2", pNode0, pNode7, true);
+
+		destroy(pNode0);
+		destroy(pNode7);
 	}
 
 	{
@@ -107,6 +119,9 @@ int main()
 		connectTreeNode(pNode8, pNode10, pNode9);
 
 		test("Test2", pNode0, pNode7, false);
+
+		destroy(pNode0);
+		destroy(pNode7);
 	}
 
 	{
@@ -121,6 +136,8 @@ int main()
 		connectTreeNode(pNode3, nullptr, pNode4);
 
 		test("Test2", pNode0, nullptr, false);
+
+		destroy(pNode0);
 	}
 
 	{
@@ -132,6 +149,8 @@ int main()
 		connectTreeNode(pNode8, pNode10, pNode9);
 
 		test("Test2", nullptr, pNode7, false);
+
+		destroy(pNode7);
 	}
 
 	{

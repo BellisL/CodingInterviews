@@ -57,3 +57,22 @@ void connectTreeNode(SBinaryTreeNode * vpFather, SBinaryTreeNode * vpLeft, SBina
 	vpFather->pLeftChild = vpLeft;
 	vpFather->pRightChild = vpRight;
 }
+
+void UTILITIES_DECLSPEC destroy(SBinaryTreeNode * vpRoot)
+{
+	if (!vpRoot)
+	{
+		return;
+	}
+	else
+	{
+		SBinaryTreeNode* pLeftChild = vpRoot->pLeftChild;
+		SBinaryTreeNode* pRightChild = vpRoot->pRightChild;
+
+		delete vpRoot;
+		vpRoot = nullptr;
+
+		destroy(pLeftChild);
+		destroy(pRightChild);
+	}
+}

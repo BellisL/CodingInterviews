@@ -37,6 +37,7 @@ void test(CBinaryTree& vTree, SBinaryTreeNode* vpNode, SBinaryTreeNode* vpExpect
 
 int main()
 {
+	//结点都没释放，应该有内存泄漏= =
 	{
 		std::cout << "-------------------test-------------------\n";
 

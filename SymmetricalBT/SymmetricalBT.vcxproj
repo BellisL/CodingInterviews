@@ -23,7 +23,7 @@
     <ProjectGuid>{F9B01809-6ED0-4797-912D-B47F41C2F6B9}</ProjectGuid>
     <RootNamespace>SymmetricalBT</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
-    <ProjectName>27_ymmetricalBT</ProjectName>
+    <ProjectName>27_SymmetricalBT</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
