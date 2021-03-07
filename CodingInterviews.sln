@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28_PrintMatrixClockwise", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29_MinInStack", "MinInStack\MinInStack.vcxproj", "{E9CA9781-0CBC-493A-8B57-1DB4010E1F6F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_StackOrder", "StackOrder\StackOrder.vcxproj", "{D5774B7E-355F-4BED-A737-E2E4FB6C613B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{E9CA9781-0CBC-493A-8B57-1DB4010E1F6F}.Release|x64.Build.0 = Release|x64
 		{E9CA9781-0CBC-493A-8B57-1DB4010E1F6F}.Release|x86.ActiveCfg = Release|Win32
 		{E9CA9781-0CBC-493A-8B57-1DB4010E1F6F}.Release|x86.Build.0 = Release|Win32
+		{D5774B7E-355F-4BED-A737-E2E4FB6C613B}.Debug|x64.ActiveCfg = Debug|x64
+		{D5774B7E-355F-4BED-A737-E2E4FB6C613B}.Debug|x64.Build.0 = Debug|x64
+		{D5774B7E-355F-4BED-A737-E2E4FB6C613B}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5774B7E-355F-4BED-A737-E2E4FB6C613B}.Debug|x86.Build.0 = Debug|Win32
+		{D5774B7E-355F-4BED-A737-E2E4FB6C613B}.Release|x64.ActiveCfg = Release|x64
+		{D5774B7E-355F-4BED-A737-E2E4FB6C613B}.Release|x64.Build.0 = Release|x64
+		{D5774B7E-355F-4BED-A737-E2E4FB6C613B}.Release|x86.ActiveCfg = Release|Win32
+		{D5774B7E-355F-4BED-A737-E2E4FB6C613B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
