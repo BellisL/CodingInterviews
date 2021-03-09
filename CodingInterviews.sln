@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "33_PathInTree", "PathInTree
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34_CopyComplexList", "CopyComplexList\CopyComplexList.vcxproj", "{E5CC8A3D-0F8E-4A7E-9789-2A48C7827917}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_ConvertBST2List", "ConvertBST2List\ConvertBST2List.vcxproj", "{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{E5CC8A3D-0F8E-4A7E-9789-2A48C7827917}.Release|x64.Build.0 = Release|x64
 		{E5CC8A3D-0F8E-4A7E-9789-2A48C7827917}.Release|x86.ActiveCfg = Release|Win32
 		{E5CC8A3D-0F8E-4A7E-9789-2A48C7827917}.Release|x86.Build.0 = Release|Win32
+		{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}.Debug|x64.ActiveCfg = Debug|x64
+		{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}.Debug|x64.Build.0 = Debug|x64
+		{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}.Debug|x86.Build.0 = Debug|Win32
+		{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}.Release|x64.ActiveCfg = Release|x64
+		{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}.Release|x64.Build.0 = Release|x64
+		{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}.Release|x86.ActiveCfg = Release|Win32
+		{20FF28A1-D5B0-4B0B-814E-1453B41E4BD8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
