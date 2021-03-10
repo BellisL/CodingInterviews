@@ -121,6 +121,7 @@ void test(const char * vpTestName, int * vpNum, int vLength)
 
 	std::cout << std::endl;
 
+	//注意：这里的solution1改变了原数组元素顺序
 	try
 	{
 		int Res = moreThanHalfNum_1(vpNum, vLength);
