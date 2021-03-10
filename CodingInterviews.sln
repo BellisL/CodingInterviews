@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36_SerializeBT", "Serialize
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "37_StringPermutation", "StringPermutation\StringPermutation.vcxproj", "{C52DE97B-9F0D-466A-A8BB-2527703B66DD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "38_MoreThanHalfNum", "MoreThanHalfNum\MoreThanHalfNum.vcxproj", "{5CDC4B33-058D-455B-B915-85B6DD313159}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -421,6 +423,14 @@ Global
 		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Release|x64.Build.0 = Release|x64
 		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Release|x86.ActiveCfg = Release|Win32
 		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Release|x86.Build.0 = Release|Win32
+		{5CDC4B33-058D-455B-B915-85B6DD313159}.Debug|x64.ActiveCfg = Debug|x64
+		{5CDC4B33-058D-455B-B915-85B6DD313159}.Debug|x64.Build.0 = Debug|x64
+		{5CDC4B33-058D-455B-B915-85B6DD313159}.Debug|x86.ActiveCfg = Debug|Win32
+		{5CDC4B33-058D-455B-B915-85B6DD313159}.Debug|x86.Build.0 = Debug|Win32
+		{5CDC4B33-058D-455B-B915-85B6DD313159}.Release|x64.ActiveCfg = Release|x64
+		{5CDC4B33-058D-455B-B915-85B6DD313159}.Release|x64.Build.0 = Release|x64
+		{5CDC4B33-058D-455B-B915-85B6DD313159}.Release|x86.ActiveCfg = Release|Win32
+		{5CDC4B33-058D-455B-B915-85B6DD313159}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
