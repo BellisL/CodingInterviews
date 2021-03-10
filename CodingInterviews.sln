@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_ConvertBST2List", "Conve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36_SerializeBT", "SerializeBT\SerializeBT.vcxproj", "{A062D056-71FE-41A7-A7D6-D62A9817447D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "37_StringPermutation", "StringPermutation\StringPermutation.vcxproj", "{C52DE97B-9F0D-466A-A8BB-2527703B66DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{A062D056-71FE-41A7-A7D6-D62A9817447D}.Release|x64.Build.0 = Release|x64
 		{A062D056-71FE-41A7-A7D6-D62A9817447D}.Release|x86.ActiveCfg = Release|Win32
 		{A062D056-71FE-41A7-A7D6-D62A9817447D}.Release|x86.Build.0 = Release|Win32
+		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Debug|x64.ActiveCfg = Debug|x64
+		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Debug|x64.Build.0 = Debug|x64
+		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Debug|x86.Build.0 = Debug|Win32
+		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Release|x64.ActiveCfg = Release|x64
+		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Release|x64.Build.0 = Release|x64
+		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Release|x86.ActiveCfg = Release|Win32
+		{C52DE97B-9F0D-466A-A8BB-2527703B66DD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
