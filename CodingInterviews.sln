@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "40_StreamMedian", "StreamMe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "41_GreatestSumofSubarray", "GreatestSumofSubarray\GreatestSumofSubarray.vcxproj", "{C8DC72DE-1E77-478C-85D0-0563BB91A36E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "42_NumofOne", "NumofOne\NumofOne.vcxproj", "{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -461,6 +463,14 @@ Global
 		{C8DC72DE-1E77-478C-85D0-0563BB91A36E}.Release|x64.Build.0 = Release|x64
 		{C8DC72DE-1E77-478C-85D0-0563BB91A36E}.Release|x86.ActiveCfg = Release|Win32
 		{C8DC72DE-1E77-478C-85D0-0563BB91A36E}.Release|x86.Build.0 = Release|Win32
+		{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}.Debug|x64.ActiveCfg = Debug|x64
+		{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}.Debug|x64.Build.0 = Debug|x64
+		{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}.Debug|x86.ActiveCfg = Debug|Win32
+		{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}.Debug|x86.Build.0 = Debug|Win32
+		{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}.Release|x64.ActiveCfg = Release|x64
+		{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}.Release|x64.Build.0 = Release|x64
+		{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}.Release|x86.ActiveCfg = Release|Win32
+		{9058B3E4-0BD7-4D9C-BC60-864194B0AAC8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
