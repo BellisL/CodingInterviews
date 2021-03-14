@@ -19,6 +19,7 @@ int main()
 	test("Test10", 10, 12);
 	test("Test11", 11, 15);
 	test("Test12", 1500, 859963392);
+	test("Test13", 0, -1);
 
 	return 0;
 }

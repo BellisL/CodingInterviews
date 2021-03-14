@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47_LongestUniqueSubstring",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "48_UglyNum", "UglyNum\UglyNum.vcxproj", "{C37C8550-46F5-4C55-9564-46E32B8B8115}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "49_FirstUniqueChar", "FirstUniqueChar\FirstUniqueChar.vcxproj", "{7BCB533A-7A49-4433-982A-4F59980141BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -531,6 +533,14 @@ Global
 		{C37C8550-46F5-4C55-9564-46E32B8B8115}.Release|x64.Build.0 = Release|x64
 		{C37C8550-46F5-4C55-9564-46E32B8B8115}.Release|x86.ActiveCfg = Release|Win32
 		{C37C8550-46F5-4C55-9564-46E32B8B8115}.Release|x86.Build.0 = Release|Win32
+		{7BCB533A-7A49-4433-982A-4F59980141BD}.Debug|x64.ActiveCfg = Debug|x64
+		{7BCB533A-7A49-4433-982A-4F59980141BD}.Debug|x64.Build.0 = Debug|x64
+		{7BCB533A-7A49-4433-982A-4F59980141BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{7BCB533A-7A49-4433-982A-4F59980141BD}.Debug|x86.Build.0 = Debug|Win32
+		{7BCB533A-7A49-4433-982A-4F59980141BD}.Release|x64.ActiveCfg = Release|x64
+		{7BCB533A-7A49-4433-982A-4F59980141BD}.Release|x64.Build.0 = Release|x64
+		{7BCB533A-7A49-4433-982A-4F59980141BD}.Release|x86.ActiveCfg = Release|Win32
+		{7BCB533A-7A49-4433-982A-4F59980141BD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
