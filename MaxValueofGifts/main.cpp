@@ -79,7 +79,7 @@ int maxValue(const std::vector<std::vector<int>>& vSet)
 	{
 		for (int k = 0; k < Cols; ++k)
 		{
-			if (i == 0)
+			/*if (i == 0)
 			{
 				if (k == 0)
 					DpSet[k] = vSet[i][k];
@@ -92,7 +92,17 @@ int maxValue(const std::vector<std::vector<int>>& vSet)
 					DpSet[k] = DpSet[k] + vSet[i][k];
 				else
 					DpSet[k] = vSet[i][k] + std::max(DpSet[k - 1], DpSet[k]);
-			}
+			}*/
+			int Up = 0;
+			int Left = 0;
+
+			if (i > 0)
+				Up = DpSet[k];
+
+			if (k > 0)
+				Left = DpSet[k - 1];
+
+			DpSet[k] = vSet[i][k] + std::max(Left, Up);
 		}
 	}
 
