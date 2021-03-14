@@ -3,7 +3,8 @@
 #include <vector>
 #include <algorithm>
 
-int longestUniqueSubstr(const std::string& vStr);
+int longestUniqueSubstr_1(const std::string& vStr);
+int longestUniqueSubstr_2(const std::string& vStr);
 void test(const char* vpTestName, const std::string& vStr, int vExpect);
 
 int main()
@@ -61,11 +62,12 @@ int main()
 	return 0;
 }
 
-int longestUniqueSubstr(const std::string & vStr)
+int longestUniqueSubstr_1(const std::string & vStr)
 {
 	if(vStr.empty()) return 0;
 
 	auto Length = vStr.length();
+	//实际上只需要保存当前和前一位置的最大长度，不需要dp数组
 	std::vector<int> Dp(Length, 0);
 
 	for (int i = 0; i < Length; ++i)
@@ -73,6 +75,7 @@ int longestUniqueSubstr(const std::string & vStr)
 		if (i == 0) Dp[i] = 1;
 		else
 		{
+			//每次都要向前扫描，效率较低，可以用数组保存元素上一次出现的位置
 			bool isDup = false;
 			int k = i - 1;
 			for (; k >= i - Dp[i - 1]; --k)
@@ -94,11 +97,36 @@ int longestUniqueSubstr(const std::string & vStr)
 	return *std::max_element(Dp.begin(), Dp.end());
 }
 
+int longestUniqueSubstr_2(const std::string & vStr)
+{
+	if (vStr.empty()) return 0;
+
+	std::vector<int> Pos(26, -1);
+	int CurLen = 0;
+	int MaxLen = 0;
+
+	for (int i = 0; i < vStr.length(); ++i)
+	{
+		int PreIndex = Pos[vStr[i] - 'a'];
+		if (PreIndex == -1 || i - PreIndex > CurLen)
+			++CurLen;
+		else
+			CurLen = i - PreIndex;
+
+		Pos[vStr[i] - 'a'] = i;
+		if (CurLen > MaxLen)
+			MaxLen = CurLen;
+	}
+
+	return MaxLen;
+}
+
 void test(const char * vpTestName, const std::string & vStr, int vExpect)
 {
 	std::cout << vpTestName << std::endl;
-	int Res = longestUniqueSubstr(vStr);
-	if (Res == vExpect)
+	int Res1 = longestUniqueSubstr_1(vStr);
+	int Res2 = longestUniqueSubstr_2(vStr);
+	if (Res1 == vExpect && Res2 == vExpect)
 		std::cout << "PASSED.\n";
 	else
 		std::cout << "FAILED.\n";
