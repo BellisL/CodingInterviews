@@ -4,9 +4,10 @@
 
 struct UTILITIES_DECLSPEC SListNode
 {
+	SListNode() = default;
 	SListNode(int vValue) : Value(vValue) {}
 
-	int Value;
+	int Value = INT_MIN;
 	std::shared_ptr<SListNode> pListNode = nullptr;
 };
 

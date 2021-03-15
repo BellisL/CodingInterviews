@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "50_InversePairs", "InverseP
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "51_MergeSort", "MergeSort\MergeSort.vcxproj", "{38B28DC6-1860-47D9-9950-5B1702FA08E1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "52_FirstCommonNodeInLists", "FirstCommonNodeInLists\FirstCommonNodeInLists.vcxproj", "{DBEE1DC0-E31B-4638-97FD-D5F263B42123}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -571,6 +573,14 @@ Global
 		{38B28DC6-1860-47D9-9950-5B1702FA08E1}.Release|x64.Build.0 = Release|x64
 		{38B28DC6-1860-47D9-9950-5B1702FA08E1}.Release|x86.ActiveCfg = Release|Win32
 		{38B28DC6-1860-47D9-9950-5B1702FA08E1}.Release|x86.Build.0 = Release|Win32
+		{DBEE1DC0-E31B-4638-97FD-D5F263B42123}.Debug|x64.ActiveCfg = Debug|x64
+		{DBEE1DC0-E31B-4638-97FD-D5F263B42123}.Debug|x64.Build.0 = Debug|x64
+		{DBEE1DC0-E31B-4638-97FD-D5F263B42123}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBEE1DC0-E31B-4638-97FD-D5F263B42123}.Debug|x86.Build.0 = Debug|Win32
+		{DBEE1DC0-E31B-4638-97FD-D5F263B42123}.Release|x64.ActiveCfg = Release|x64
+		{DBEE1DC0-E31B-4638-97FD-D5F263B42123}.Release|x64.Build.0 = Release|x64
+		{DBEE1DC0-E31B-4638-97FD-D5F263B42123}.Release|x86.ActiveCfg = Release|Win32
+		{DBEE1DC0-E31B-4638-97FD-D5F263B42123}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
