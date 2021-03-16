@@ -47,7 +47,6 @@ int missingNum(const std::vector<int>& vSet)
 	return Low;
 }
 
-
 void test(const char* vpTestName, const std::vector<int>& vSet, int vExpect)
 {
 	std::cout << vpTestName << std::endl;
