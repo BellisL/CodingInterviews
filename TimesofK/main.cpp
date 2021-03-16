@@ -75,13 +75,14 @@ int getTimesofK(const std::vector<int>& vSet, int vNum)
 
 	int LowerBound1 = lower_bound_01(vSet, vNum);
 	int UpperBound1 = upper_bound_01(vSet, vNum);
+	std::cout << LowerBound1 << "\t";
+	std::cout << UpperBound1 << "\t";
 
 	int LowerBound2 = lower_bound_02(vSet, vNum);
 	int UpperBound2 = upper_bound_02(vSet, vNum);
-	std::cout << LowerBound1 << "\t";
-	std::cout << UpperBound1 << "\t";
 	std::cout << LowerBound2 << "\t";
 	std::cout << UpperBound2 << "\t";
+
 	std::cout << std::endl;
 
 	return UpperBound1 - LowerBound1 + 1;
@@ -162,7 +163,9 @@ void test(const char * vpTestName, const std::vector<int>& vSet, int vNum, int v
 	try
 	{
 		auto TimesK = getTimesofK(vSet, vNum);
-		if (TimesK <= vExpect)
+		if (TimesK == vExpect)
+			std::cout << "PASSED.\n";
+		else if(vExpect == 0 && TimesK <= 0)
 			std::cout << "PASSED.\n";
 		else
 			std::cout << "FAILED.\n";

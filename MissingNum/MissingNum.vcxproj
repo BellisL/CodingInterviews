@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{EFD5A0C4-D877-4E4F-8D25-6F63CAFA9406}</ProjectGuid>
-    <RootNamespace>TimesofK</RootNamespace>
+    <ProjectGuid>{9CE3FF66-32DF-4176-ABB4-08730696472B}</ProjectGuid>
+    <RootNamespace>MissingNum</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
-    <ProjectName>53_0_TimesofK</ProjectName>
+    <ProjectName>53_1_MissingNum</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -117,7 +117,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "51_MergeSort", "MergeSort\M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "52_FirstCommonNodeInLists", "FirstCommonNodeInLists\FirstCommonNodeInLists.vcxproj", "{DBEE1DC0-E31B-4638-97FD-D5F263B42123}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "53_TimesofK", "TimesofK\TimesofK.vcxproj", "{EFD5A0C4-D877-4E4F-8D25-6F63CAFA9406}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "53_0_TimesofK", "TimesofK\TimesofK.vcxproj", "{EFD5A0C4-D877-4E4F-8D25-6F63CAFA9406}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "53_1_MissingNum", "MissingNum\MissingNum.vcxproj", "{9CE3FF66-32DF-4176-ABB4-08730696472B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -591,6 +593,14 @@ Global
 		{EFD5A0C4-D877-4E4F-8D25-6F63CAFA9406}.Release|x64.Build.0 = Release|x64
 		{EFD5A0C4-D877-4E4F-8D25-6F63CAFA9406}.Release|x86.ActiveCfg = Release|Win32
 		{EFD5A0C4-D877-4E4F-8D25-6F63CAFA9406}.Release|x86.Build.0 = Release|Win32
+		{9CE3FF66-32DF-4176-ABB4-08730696472B}.Debug|x64.ActiveCfg = Debug|x64
+		{9CE3FF66-32DF-4176-ABB4-08730696472B}.Debug|x64.Build.0 = Debug|x64
+		{9CE3FF66-32DF-4176-ABB4-08730696472B}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CE3FF66-32DF-4176-ABB4-08730696472B}.Debug|x86.Build.0 = Debug|Win32
+		{9CE3FF66-32DF-4176-ABB4-08730696472B}.Release|x64.ActiveCfg = Release|x64
+		{9CE3FF66-32DF-4176-ABB4-08730696472B}.Release|x64.Build.0 = Release|x64
+		{9CE3FF66-32DF-4176-ABB4-08730696472B}.Release|x86.ActiveCfg = Release|Win32
+		{9CE3FF66-32DF-4176-ABB4-08730696472B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
