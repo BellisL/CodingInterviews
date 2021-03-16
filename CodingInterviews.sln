@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "53_1_MissingNum", "MissingN
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "53_2_NumEqual2Index", "NumEqual2Index\NumEqual2Index.vcxproj", "{A687C595-AA09-4B14-8820-16EF2F7BBA1E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "54_KthMinInBST", "KthMinInBST\KthMinInBST.vcxproj", "{AC634049-DBC7-47B3-9C20-4B78A47412C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -611,6 +613,14 @@ Global
 		{A687C595-AA09-4B14-8820-16EF2F7BBA1E}.Release|x64.Build.0 = Release|x64
 		{A687C595-AA09-4B14-8820-16EF2F7BBA1E}.Release|x86.ActiveCfg = Release|Win32
 		{A687C595-AA09-4B14-8820-16EF2F7BBA1E}.Release|x86.Build.0 = Release|Win32
+		{AC634049-DBC7-47B3-9C20-4B78A47412C2}.Debug|x64.ActiveCfg = Debug|x64
+		{AC634049-DBC7-47B3-9C20-4B78A47412C2}.Debug|x64.Build.0 = Debug|x64
+		{AC634049-DBC7-47B3-9C20-4B78A47412C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC634049-DBC7-47B3-9C20-4B78A47412C2}.Debug|x86.Build.0 = Debug|Win32
+		{AC634049-DBC7-47B3-9C20-4B78A47412C2}.Release|x64.ActiveCfg = Release|x64
+		{AC634049-DBC7-47B3-9C20-4B78A47412C2}.Release|x64.Build.0 = Release|x64
+		{AC634049-DBC7-47B3-9C20-4B78A47412C2}.Release|x86.ActiveCfg = Release|Win32
+		{AC634049-DBC7-47B3-9C20-4B78A47412C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
