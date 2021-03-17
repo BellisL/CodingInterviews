@@ -36,7 +36,7 @@ std::pair<int, int> numsofSum(const std::vector<int>& vSet, int vSum)
 
 	int Low = 0;
 	int High = vSet.size() - 1;
-	while (Low <= High)
+	while (Low < High)
 	{
 		auto Sum = vSet[Low] + vSet[High];
 		if (Sum == vSum)
