@@ -139,6 +139,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "57_1_ContinueSequenceWithSu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58_0_ReverseWordsInSentence", "ReverseWordsInSentence\ReverseWordsInSentence.vcxproj", "{99F3CFE6-112C-49A9-99DA-AEC9A196333A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "59_1_LeftRotateStr", "LeftRotateStr\LeftRotateStr.vcxproj", "{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -691,6 +693,14 @@ Global
 		{99F3CFE6-112C-49A9-99DA-AEC9A196333A}.Release|x64.Build.0 = Release|x64
 		{99F3CFE6-112C-49A9-99DA-AEC9A196333A}.Release|x86.ActiveCfg = Release|Win32
 		{99F3CFE6-112C-49A9-99DA-AEC9A196333A}.Release|x86.Build.0 = Release|Win32
+		{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}.Debug|x64.ActiveCfg = Debug|x64
+		{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}.Debug|x64.Build.0 = Debug|x64
+		{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}.Debug|x86.ActiveCfg = Debug|Win32
+		{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}.Debug|x86.Build.0 = Debug|Win32
+		{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}.Release|x64.ActiveCfg = Release|x64
+		{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}.Release|x64.Build.0 = Release|x64
+		{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}.Release|x86.ActiveCfg = Release|Win32
+		{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
