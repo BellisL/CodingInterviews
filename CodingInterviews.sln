@@ -129,6 +129,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "55_0_TreeDepth", "TreeDepth
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "55_1_BalanceBT", "BalanceBT\BalanceBT.vcxproj", "{A00D356E-8221-402B-AD0C-C441D386F335}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "56_NumsAppearOnce", "NumsAppearOnce\NumsAppearOnce.vcxproj", "{366F504B-928D-4E45-92AB-0E8D7E818542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -641,6 +643,14 @@ Global
 		{A00D356E-8221-402B-AD0C-C441D386F335}.Release|x64.Build.0 = Release|x64
 		{A00D356E-8221-402B-AD0C-C441D386F335}.Release|x86.ActiveCfg = Release|Win32
 		{A00D356E-8221-402B-AD0C-C441D386F335}.Release|x86.Build.0 = Release|Win32
+		{366F504B-928D-4E45-92AB-0E8D7E818542}.Debug|x64.ActiveCfg = Debug|x64
+		{366F504B-928D-4E45-92AB-0E8D7E818542}.Debug|x64.Build.0 = Debug|x64
+		{366F504B-928D-4E45-92AB-0E8D7E818542}.Debug|x86.ActiveCfg = Debug|Win32
+		{366F504B-928D-4E45-92AB-0E8D7E818542}.Debug|x86.Build.0 = Debug|Win32
+		{366F504B-928D-4E45-92AB-0E8D7E818542}.Release|x64.ActiveCfg = Release|x64
+		{366F504B-928D-4E45-92AB-0E8D7E818542}.Release|x64.Build.0 = Release|x64
+		{366F504B-928D-4E45-92AB-0E8D7E818542}.Release|x86.ActiveCfg = Release|Win32
+		{366F504B-928D-4E45-92AB-0E8D7E818542}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
