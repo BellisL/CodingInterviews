@@ -71,12 +71,19 @@ void test(const char * vpTestName, const std::vector<int>& vSet, const std::pair
 {
 	std::cout << vpTestName << std::endl;
 
-	auto Pair = getNumsAppearOnce(vSet);
-	if ((Pair.first == vPair.first && Pair.second == vPair.second)
-		|| (Pair.first == vPair.second && Pair.second == vPair.first))
-		std::cout << "PASSED.\n";
-	else
-		std::cout << "FAILED.\n";
-
+	try
+	{
+		auto Pair = getNumsAppearOnce(vSet);
+		if ((Pair.first == vPair.first && Pair.second == vPair.second)
+			|| (Pair.first == vPair.second && Pair.second == vPair.first))
+			std::cout << "PASSED.\n";
+		else
+			std::cout << "FAILED.\n";
+	}
+	catch (std::runtime_error e)
+	{
+		std::cout << e.what() << std::endl;
+	}
+	
 	std::cout << std::endl;
 }

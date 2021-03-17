@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{366F504B-928D-4E45-92AB-0E8D7E818542}</ProjectGuid>
-    <RootNamespace>NumsAppearOnce</RootNamespace>
+    <ProjectGuid>{A7278DC2-D9DF-4F40-AF2E-BA230C5E5E60}</ProjectGuid>
+    <RootNamespace>NumAppearOnce</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
-    <ProjectName>56_0_NumsAppearOnce</ProjectName>
+    <ProjectName>56_1_NumAppearOnce</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
