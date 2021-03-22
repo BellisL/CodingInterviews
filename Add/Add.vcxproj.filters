@@ -19,18 +19,4 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="OneN.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="BD.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="FunPtr.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Temp.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
 </Project>

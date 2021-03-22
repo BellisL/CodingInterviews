@@ -2,6 +2,7 @@
 #include "OneN.h"
 #include "BD.h"
 #include "FunPtr.h"
+#include "Temp.h"
 
 int sum_Solution_1(int vNum);
 int sum_Solution_2(int vNum);
@@ -10,10 +11,15 @@ void test(const char* vpTestName, int vNum);
 int main()
 {
 	test("Test1", 1);
+	std::cout << Sum_Solution_4<1>::Sum << std::endl;
 	test("Test2", 2);
+	std::cout << Sum_Solution_4<2>::Sum << std::endl;
 	test("Test3", 3);
+	std::cout << Sum_Solution_4<3>::Sum << std::endl;
 	test("Test4", 10);
+	std::cout << Sum_Solution_4<10>::Sum << std::endl;
 	test("Test5", 100);
+	std::cout << Sum_Solution_4<100>::Sum << std::endl;
 
 	return 0;
 }
@@ -40,6 +46,7 @@ int sum_Solution_2(int vNum)
 
 void test(const char* vpTestName, int vNum)
 {
+	std::cout << std::endl;
 	std::cout << vpTestName << std::endl;
 
 	auto Expect = (1 + vNum) * vNum / 2;
@@ -51,6 +58,4 @@ void test(const char* vpTestName, int vNum)
 		std::cout << "PASSED.\n";
 	else
 		std::cout << "FAILED.\n";
-
-	std::cout << std::endl;
 }

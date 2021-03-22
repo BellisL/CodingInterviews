@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{1E10AAF6-06A3-40B0-8C33-1BB8BE908250}</ProjectGuid>
-    <RootNamespace>Accumulate</RootNamespace>
+    <ProjectGuid>{9F0DD43A-067E-4EA4-AB08-EA817FDC438B}</ProjectGuid>
+    <RootNamespace>Add</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
-    <ProjectName>64_Accumulate</ProjectName>
+    <ProjectName>65_Add</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -125,12 +125,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BD.h" />
-    <ClInclude Include="FunPtr.h" />
-    <ClInclude Include="OneN.h" />
-    <ClInclude Include="Temp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
