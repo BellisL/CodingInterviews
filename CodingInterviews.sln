@@ -139,7 +139,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "57_1_ContinueSequenceWithSu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58_0_ReverseWordsInSentence", "ReverseWordsInSentence\ReverseWordsInSentence.vcxproj", "{99F3CFE6-112C-49A9-99DA-AEC9A196333A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "59_1_LeftRotateStr", "LeftRotateStr\LeftRotateStr.vcxproj", "{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58_1_LeftRotateStr", "LeftRotateStr\LeftRotateStr.vcxproj", "{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "62_LastNumInCir", "LastNumInCir\LastNumInCir.vcxproj", "{876A7DE4-8E95-4AB3-A301-652911B6778B}"
 EndProject
@@ -147,9 +147,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP", "KMP\KMP.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28_1_printMatrixZigzag", "printMatrixZigzag\printMatrixZigzag.vcxproj", "{2378AA2F-F896-4055-ACD7-688D76EFDB9F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "60_0_MaxInSlidingWnd", "MaxInSlidingWnd\MaxInSlidingWnd.vcxproj", "{9E5C3AB2-8D07-46AF-94C3-464BA20360A2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "59_0_MaxInSlidingWnd", "MaxInSlidingWnd\MaxInSlidingWnd.vcxproj", "{9E5C3AB2-8D07-46AF-94C3-464BA20360A2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "60_1_MaxInQueue", "MaxInQueue\MaxInQueue.vcxproj", "{36B7B19C-1A7E-4661-963E-6E6F51BCFA00}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "59_1_MaxInQueue", "MaxInQueue\MaxInQueue.vcxproj", "{36B7B19C-1A7E-4661-963E-6E6F51BCFA00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "60_DicesProbability", "DicesProbability\DicesProbability.vcxproj", "{D21643C5-8288-4FEE-8379-263FCE039360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -751,6 +753,14 @@ Global
 		{36B7B19C-1A7E-4661-963E-6E6F51BCFA00}.Release|x64.Build.0 = Release|x64
 		{36B7B19C-1A7E-4661-963E-6E6F51BCFA00}.Release|x86.ActiveCfg = Release|Win32
 		{36B7B19C-1A7E-4661-963E-6E6F51BCFA00}.Release|x86.Build.0 = Release|Win32
+		{D21643C5-8288-4FEE-8379-263FCE039360}.Debug|x64.ActiveCfg = Debug|x64
+		{D21643C5-8288-4FEE-8379-263FCE039360}.Debug|x64.Build.0 = Debug|x64
+		{D21643C5-8288-4FEE-8379-263FCE039360}.Debug|x86.ActiveCfg = Debug|Win32
+		{D21643C5-8288-4FEE-8379-263FCE039360}.Debug|x86.Build.0 = Debug|Win32
+		{D21643C5-8288-4FEE-8379-263FCE039360}.Release|x64.ActiveCfg = Release|x64
+		{D21643C5-8288-4FEE-8379-263FCE039360}.Release|x64.Build.0 = Release|x64
+		{D21643C5-8288-4FEE-8379-263FCE039360}.Release|x86.ActiveCfg = Release|Win32
+		{D21643C5-8288-4FEE-8379-263FCE039360}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

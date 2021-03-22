@@ -20,10 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{9E5C3AB2-8D07-46AF-94C3-464BA20360A2}</ProjectGuid>
-    <RootNamespace>MaxInSlidingWnd</RootNamespace>
+    <ProjectGuid>{D21643C5-8288-4FEE-8379-263FCE039360}</ProjectGuid>
+    <RootNamespace>DicesProbability</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
-    <ProjectName>59_0_MaxInSlidingWnd</ProjectName>
+    <ProjectName>60_DicesProbability</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

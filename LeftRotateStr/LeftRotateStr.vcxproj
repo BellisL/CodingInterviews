@@ -23,7 +23,7 @@
     <ProjectGuid>{246E51D4-D4E3-4AB4-9DD3-F064FC6FA8D7}</ProjectGuid>
     <RootNamespace>LeftRotateStr</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
-    <ProjectName>59_1_LeftRotateStr</ProjectName>
+    <ProjectName>58_1_LeftRotateStr</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
