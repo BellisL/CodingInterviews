@@ -153,6 +153,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "59_1_MaxInQueue", "MaxInQue
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "60_DicesProbability", "DicesProbability\DicesProbability.vcxproj", "{D21643C5-8288-4FEE-8379-263FCE039360}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "61_ShunZi", "ShunZi\ShunZi.vcxproj", "{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -761,6 +763,14 @@ Global
 		{D21643C5-8288-4FEE-8379-263FCE039360}.Release|x64.Build.0 = Release|x64
 		{D21643C5-8288-4FEE-8379-263FCE039360}.Release|x86.ActiveCfg = Release|Win32
 		{D21643C5-8288-4FEE-8379-263FCE039360}.Release|x86.Build.0 = Release|Win32
+		{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}.Debug|x64.ActiveCfg = Debug|x64
+		{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}.Debug|x64.Build.0 = Debug|x64
+		{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}.Debug|x86.Build.0 = Debug|Win32
+		{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}.Release|x64.ActiveCfg = Release|x64
+		{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}.Release|x64.Build.0 = Release|x64
+		{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}.Release|x86.ActiveCfg = Release|Win32
+		{20DFD8C4-FC76-4715-B6C2-C63ABA51F0C1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

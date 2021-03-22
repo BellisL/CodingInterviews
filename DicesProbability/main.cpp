@@ -13,6 +13,8 @@ int main()
 	printProb_2(2);
 	printProb_1(3);
 	printProb_2(3);
+	printProb_1(4);
+	printProb_2(4);
 
 	return 0;
 }
