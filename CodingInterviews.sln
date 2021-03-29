@@ -177,7 +177,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HuffmanCoding", "HuffmanCod
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "70_HeapSort", "HeapSort\HeapSort.vcxproj", "{4E2C311D-F512-478D-A780-8A69A53EB273}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestPalindrome", "LongestPalindrome\LongestPalindrome.vcxproj", "{A8C1BA5F-A363-4162-91ED-9FDC10AC121F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "71_LongestPalindrome", "LongestPalindrome\LongestPalindrome.vcxproj", "{A8C1BA5F-A363-4162-91ED-9FDC10AC121F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Convex", "Convex\Convex.vcxproj", "{696E8A1E-25A5-4466-A9CA-FA4F804411BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -891,6 +893,14 @@ Global
 		{A8C1BA5F-A363-4162-91ED-9FDC10AC121F}.Release|x64.Build.0 = Release|x64
 		{A8C1BA5F-A363-4162-91ED-9FDC10AC121F}.Release|x86.ActiveCfg = Release|Win32
 		{A8C1BA5F-A363-4162-91ED-9FDC10AC121F}.Release|x86.Build.0 = Release|Win32
+		{696E8A1E-25A5-4466-A9CA-FA4F804411BF}.Debug|x64.ActiveCfg = Debug|x64
+		{696E8A1E-25A5-4466-A9CA-FA4F804411BF}.Debug|x64.Build.0 = Debug|x64
+		{696E8A1E-25A5-4466-A9CA-FA4F804411BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{696E8A1E-25A5-4466-A9CA-FA4F804411BF}.Debug|x86.Build.0 = Debug|Win32
+		{696E8A1E-25A5-4466-A9CA-FA4F804411BF}.Release|x64.ActiveCfg = Release|x64
+		{696E8A1E-25A5-4466-A9CA-FA4F804411BF}.Release|x64.Build.0 = Release|x64
+		{696E8A1E-25A5-4466-A9CA-FA4F804411BF}.Release|x86.ActiveCfg = Release|Win32
+		{696E8A1E-25A5-4466-A9CA-FA4F804411BF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
