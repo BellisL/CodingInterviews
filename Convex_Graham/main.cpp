@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 #include <stack>
-#include <cmath>
 
 struct SPoint
 {
@@ -95,6 +94,7 @@ int main()
 
 		std::vector<SPoint> ExpectSet;
 		//不能处理共线情况
+		std::cout << "不能处理共线情况" << std::endl;
 		test("Test4", Set, ExpectSet);
 	}
 

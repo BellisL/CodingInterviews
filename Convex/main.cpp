@@ -14,6 +14,7 @@ struct SPoint
 SPoint operator-(const SPoint& vL, const SPoint& vR);
 long long operator^(const SPoint& vL, const SPoint& vR);
 bool operator<(const SPoint& vL, const SPoint& vR);
+bool operator==(const SPoint& vL, const SPoint& vR);
 
 SPoint operator-(const SPoint& vL, const SPoint & vR)
 {
