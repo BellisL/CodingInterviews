@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <stack>
+#include <cmath>
 
 struct SPoint
 {
@@ -11,31 +13,12 @@ struct SPoint
 	int Y;
 };
 
-SPoint operator-(const SPoint& vL, const SPoint& vR);
-long long operator^(const SPoint& vL, const SPoint& vR);
-bool operator<(const SPoint& vL, const SPoint& vR);
+SPoint operator-(const SPoint& vL, const SPoint & vR);
+bool operator==(const SPoint& vL, const SPoint& vR);
+long long cross(const SPoint& vL, const SPoint& vR);
+bool isRight(const SPoint& vL, const SPoint& vM, const SPoint& vR);
 
-SPoint operator-(const SPoint& vL, const SPoint & vR)
-{
-	return SPoint(vL.X - vR.X, vL.Y - vR.Y);
-}
-
-long long operator^(const SPoint& vL, const SPoint& vR)
-{
-	return static_cast<long long>(vL.X) * vR.Y - static_cast<long long>(vL.Y) * vR.X;
-}
-
-bool operator<(const SPoint& vL, const SPoint& vR)
-{
-	return vL.X == vR.X ? vL.Y < vR.Y : vL.X < vR.X;
-}
-
-bool operator==(const SPoint& vL, const SPoint& vR)
-{
-	return vL.X == vR.X && vL.Y == vR.Y;
-}
-
-void convex(std::vector<SPoint>& vSet, std::vector<SPoint>& vCSet);
+void convex_graham(std::vector<SPoint>& vSet, std::vector<SPoint>& vCSet);
 void test(const char* vpTestName, std::vector<SPoint>& vSet, std::vector<SPoint>& vExpectSet);
 
 int main()
@@ -127,35 +110,59 @@ int main()
 	return 0;
 }
 
-void convex(std::vector<SPoint>& vSet, std::vector<SPoint>& vCSet)
+SPoint operator-(const SPoint& vL, const SPoint & vR)
+{
+	return SPoint(vL.X - vR.X, vL.Y - vR.Y);
+}
+
+bool operator==(const SPoint& vL, const SPoint& vR)
+{
+	return vL.X == vR.X && vL.Y == vR.Y;
+}
+
+bool operator<(const SPoint& vL, const SPoint& vR)
+{
+	return vL.Y == vR.Y ? vL.X < vR.X : vL.Y < vR.Y;
+}
+
+long long cross(const SPoint & vL, const SPoint & vR)
+{
+	return static_cast<long long>(vL.X) * vR.Y - static_cast<long long>(vL.Y) * vR.X;
+}
+
+bool isRight(const SPoint& vL, const SPoint& vM, const SPoint& vR)
+{
+	if (cross(vM - vL, vR - vM) < 0) return true;
+	else return false;
+}
+
+void convex_graham(std::vector<SPoint>& vSet, std::vector<SPoint>& vCSet)
 {
 	if (vSet.size() < 3) return;
 
 	std::sort(vSet.begin(), vSet.end());
-	vSet.erase(std::unique(vSet.begin(), vSet.end()), vSet.end());
+	//, [](const SPoint& vL, const SPoint& vR) -> bool { return vL.Y < vR.Y; }
+	std::stack<SPoint> PStack;
+	auto BottomPoint = vSet[0];
+	vCSet.push_back(BottomPoint);
+	std::sort(vSet.begin(), vSet.end(), [BottomPoint](const SPoint& vL, const SPoint& vR) 
+	{ 
+		return atan2(static_cast<float>(vL.Y - BottomPoint.Y), static_cast<float>(vL.X - BottomPoint.X))
+			< atan2(static_cast<float>(vR.Y - BottomPoint.Y), static_cast<float>(vR.X - BottomPoint.X));
+	});
 
-	//求下凸壳
-	int CIndex = 0;
- 	for (int i = 0; i < vSet.size(); ++i)
-	{
-		while (CIndex > 1 && ((vCSet[CIndex - 1] - vCSet[CIndex - 2]) ^ (vSet[i] - vCSet[CIndex - 2])) < 0)
-		{
-			--CIndex;
-		}
-		vCSet[CIndex++] = vSet[i];
-	}
+	vCSet.push_back(vSet[1]);
+	int TopIndex = 1;
 
-	//求上凸壳
-	for (int i = vSet.size() - 2, T = CIndex; i >= 0; --i)
+	for (int i = 2; i < vSet.size(); ++i)
 	{
-		while (CIndex > T && ((vCSet[CIndex - 1] - vCSet[CIndex - 2]) ^ (vSet[i] - vCSet[CIndex - 2])) < 0)
+		while (TopIndex && isRight(vCSet[TopIndex - 1], vCSet[TopIndex], vSet[i]))
 		{
-			--CIndex;
+			--TopIndex;
+			vCSet.pop_back();
 		}
-		if (CIndex < vCSet.size())
-			vCSet[CIndex++] = vSet[i];
-		else
-			break;
+		vCSet.push_back(vSet[i]);
+		++TopIndex;
 	}
 }
 
@@ -163,9 +170,8 @@ void test(const char* vpTestName, std::vector<SPoint>& vSet, std::vector<SPoint>
 {
 	std::cout << vpTestName << std::endl;
 
-	std::vector<SPoint> CSet(vSet.size());
-	convex(vSet, CSet);
-	CSet.resize(vExpectSet.size());
+	std::vector<SPoint> CSet;
+	convex_graham(vSet, CSet);
 	std::sort(CSet.begin(), CSet.end());
 	std::sort(vExpectSet.begin(), vExpectSet.end());
 	if (CSet == vExpectSet)
