@@ -143,7 +143,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58_1_LeftRotateStr", "LeftR
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "62_LastNumInCir", "LastNumInCir\LastNumInCir.vcxproj", "{876A7DE4-8E95-4AB3-A301-652911B6778B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP", "KMP\KMP.vcxproj", "{199AA478-41C7-4378-AE71-46D9B9CCF6FD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "75_KMP", "KMP\KMP.vcxproj", "{199AA478-41C7-4378-AE71-46D9B9CCF6FD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28_1_printMatrixZigzag", "printMatrixZigzag\printMatrixZigzag.vcxproj", "{2378AA2F-F896-4055-ACD7-688D76EFDB9F}"
 EndProject
@@ -173,7 +173,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "69_1_LeastSteps2One", "Leas
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "37_1_NextPermutation", "NextPermutation\NextPermutation.vcxproj", "{D61D475D-BFE7-4353-AE10-AA8030CEE730}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HuffmanCoding", "HuffmanCoding\HuffmanCoding.vcxproj", "{8E3AFBC5-E796-4BB3-954C-1A7EB364DA92}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "74_HuffmanCoding", "HuffmanCoding\HuffmanCoding.vcxproj", "{8E3AFBC5-E796-4BB3-954C-1A7EB364DA92}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "70_HeapSort", "HeapSort\HeapSort.vcxproj", "{4E2C311D-F512-478D-A780-8A69A53EB273}"
 EndProject
@@ -186,6 +186,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "72_2_ConvexPolygon", "ConvexPolygon\ConvexPolygon.vcxproj", "{34B1F889-7875-42EA-A48C-A1772F44DD5E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "73_TraverseBT", "TraverseBT\TraverseBT.vcxproj", "{D4FAFD22-C111-485A-9273-736B27191E96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "76_0_LRU", "LRU\LRU.vcxproj", "{01855559-B437-429F-8376-746907BB28E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -931,6 +933,14 @@ Global
 		{D4FAFD22-C111-485A-9273-736B27191E96}.Release|x64.Build.0 = Release|x64
 		{D4FAFD22-C111-485A-9273-736B27191E96}.Release|x86.ActiveCfg = Release|Win32
 		{D4FAFD22-C111-485A-9273-736B27191E96}.Release|x86.Build.0 = Release|Win32
+		{01855559-B437-429F-8376-746907BB28E4}.Debug|x64.ActiveCfg = Debug|x64
+		{01855559-B437-429F-8376-746907BB28E4}.Debug|x64.Build.0 = Debug|x64
+		{01855559-B437-429F-8376-746907BB28E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{01855559-B437-429F-8376-746907BB28E4}.Debug|x86.Build.0 = Debug|Win32
+		{01855559-B437-429F-8376-746907BB28E4}.Release|x64.ActiveCfg = Release|x64
+		{01855559-B437-429F-8376-746907BB28E4}.Release|x64.Build.0 = Release|x64
+		{01855559-B437-429F-8376-746907BB28E4}.Release|x86.ActiveCfg = Release|Win32
+		{01855559-B437-429F-8376-746907BB28E4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
