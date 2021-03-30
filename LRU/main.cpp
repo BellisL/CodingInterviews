@@ -3,7 +3,7 @@
 #include <list>
 #include <unordered_map>
 
-class CSolution
+class CLRUCache
 {
 public:
 	/**
@@ -105,8 +105,8 @@ void test(const char* vpTestName, std::vector<std::vector<int>>& vSet, int vCap,
 {
 	std::cout << vpTestName << std::endl;
 
-	CSolution Sol;
-	auto Set = Sol.LRU(vSet, vCap);
+	CLRUCache LRUCache;
+	auto Set = LRUCache.LRU(vSet, vCap);
 	if (Set == vExpectSet)
 		std::cout << "PASSED.\n";
 	else
