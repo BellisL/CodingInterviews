@@ -23,6 +23,7 @@
     <ProjectGuid>{199AA478-41C7-4378-AE71-46D9B9CCF6FD}</ProjectGuid>
     <RootNamespace>KMP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectName>75_KMP</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
